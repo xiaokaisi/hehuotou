@@ -1,0 +1,427 @@
+<html>
+	<head>
+		<title>首页</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style>
+		*{margin: 0;padding: 0;list-style: none;}
+		.header{width:100%;height:90px;}
+		.left{width:50%;height:90px;float:left;}
+		.iframe{width:200px;height:90px;float:left;}
+		.right{width:50%;height:90px;line-height:90px;float:left;margin:0 auto;}
+		.line{height:40px;margin:0 auto;width:300px;margin-top:40px;}
+		.select select{float:left;padding-right:0px;height:40px;width:50px;}
+		.text{float:left;padding-right:0px;border-right:0px;height:40px;width:200px;}
+		.text input{border-left:0px;border-right:0px;height:40px;width:200px;}
+		.button{float:left;border-left:0px;height:40px;width:50px;}
+		.button input{background:url(images/search.jpg) no-repeat center ;height:40px;width:50px;}
+		.middle{width:100%;height:50px;border:1px #F2F2F2 solid;border-bottom:3px #959595 solid;}
+		.middle ul li{list-style:none;float:left;padding-right:50px;}
+		.box:hover{color:green;border-bottom:3px green solid;width:80px;height:50x;margin:0 auto;}
+		.denglu{float:right;margin-top:-5px;}
+		.container{width:100%;height:100%}
+		.content{width:100%;height:100px;}
+		#container{
+			width:1000px; height:240px;margin:0px auto;
+			background:#333; position:relative; overflow:hidden;
+		}
+		#container .content{
+			width: 5000px;
+			position: absolute;
+			top: 0;left: 0;}
+		#container .content li{float: left;}
+	    #container .pre{width: 45px;height: 45px;line-height: 45px;text-align: center;background-image: url(images/l.png);background-repeat: no-repeat;cursor: pointer;	position: absolute;top:190px;left: 10px;z-index: 10;}
+	    #container .next{width: 45px;height: 45px;line-height: 45px;text-align: center;background-image: url(images/r.png);background-repeat: no-repeat;cursor: pointer;	position: absolute;top:190px;right: 10px;z-index: 10;}
+	    #container .pointer{width: 100%;height: 10px;position: absolute;bottom: 15px;z-index: 10;}
+	    #container .pointer ul{width: 120px;margin: 0 auto;}
+	    #container .pointer ul li{float:left;width: 10px;height: 10px;border-radius: 10px;background:#fff;margin: 0 5px;cursor: pointer;}
+	    #container .pointer .thistitle{background: #69aaec;}
+		.middle1{width:100%;height:60px;background:#eee;}
+		.shuju{width:33%;float:left;}
+		.shuju p{font-weight:bold;text-align:center;}
+		.shuju p span{color:green;font-size:30px;}
+		.middle2{width:100%;height:80px;}
+		.middle2 p{font-size:40px;text-align:center;}
+		.middle2 span{margin:40px auto;margin-right:10px;}
+		.middle2 span:hover{color:green}
+		.fenlei{text-align:center;}
+		.middle3{width:920px;height:370px;margin:0 auto;border:2px #eee solid;}
+		
+		.middle3l{width:300px;height:350px;float:left;margin-right:5px;}
+		.middle3l img{width:300px;height:200px;}
+		.jieshao{width:260px;
+				overflow:hidden;
+				white-space:nowrap;
+				text-overflow:ellipsis;
+				list-style-position:inside;}
+				.baifenbi{float:right;color:#76CBE6;font-size:10px;}
+				.middle31 span{width:100%;}
+				.baifentiao{width:100%;}
+		.clear{clear:both;}
+		.wenben{width:300px;height:80px;}
+		.xinxi{width:300px;height:30px;}
+		.dizhi{width:30%;height:10px;float:left;text-align:center;}
+		.dizhi img{width:20px;height:20px;}
+		.touzi{border-radius:10px;background:#FF7A7B;width:100px;height:40px;margin-left:100px;}
+		.touzi p{color:white;margin:0 auto;text-align:center;padding-top:10px;}
+		.liulan{width:920px;height:30px;background:#eee;margin:0 auto;}
+		.liulan p{text-align:center;}
+		.yichouzi{width:100%;height:700px;background:#D1EEFE;margin-top:5px;}
+		.yichouzi p{font-size:40px;text-align:center;}
+		.yichouzi span{margin:40px auto;margin-right:10px;}
+		.yichouzi span:hover{color:green}
+		.youji{width:65%;height:160px;background:#fff;margin:0 auto;margin-top:10px;}
+		.youji img{float:left;width:30%;}
+		.youji1{float:left;width:70%;}
+		.youji2{width:90%;margin-left:30px;height:100px;}
+		.xinxi1{width:90%;height:30px;margin-left:20px;}
+		.dizhi1{width:10%;height:10px;float:left;text-align:center;margin-right:80px;}
+		</style>
+			
+	<body>
+		<div class="header">
+			<div class="left">
+			<iframe src="images/logo.png" width="100%" height="90" frameborder="0" scrolling="no"></iframe>
+			</div>
+			<div class="right">
+				<div class="line">
+					<div class="select"> 
+						<select>
+							<option value="项目">项目</option>
+							<option value="项目1">项目1</option>
+						</select>
+					</div>
+					<div class="text">
+						<input type="text" placeholder="请输入商品关键字" />
+					</div>
+					<div class="button">
+						<input type="button" />
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="middle">
+		<ul>
+			<li><div class="box">首页</div></li>
+			<li><div class="box">众筹项目</div></li>
+			<li><div class="box">众筹发布</div></li>
+			<li><div class="box">安全承诺</div></li>
+			<li><div class="box">社区公益</div></li>
+			<li><div class="box">新手指引</div></li>
+		</ul>
+		<ul class="denglu">
+			<li>登录</li>
+			<li>注册</li>
+		</ul>
+	
+	</div>
+	<div id="container">
+		<div class="pre"></div>
+		<div class="next"></div>
+		<div class="pointer">
+			<ul>
+				<li class="thistitle"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="content">
+			<ul>
+				<li><img src="images/l_1.jpg"></li>
+				<li><img src="images/l_2.jpg"></li>
+				<li><img src="images/l_3.jpg"></li>
+				<li><img src="images/l_4.jpg"></li>
+				<li><img src="images/l_5.jpg"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		window.onload=function(){
+			var oDiv = document.getElementById('container');
+		    var oPre = getByClass(oDiv, 'pre')[0];
+		    var oNext = getByClass(oDiv, 'next')[0];
+		    var oUlBig = getByClass(oDiv, 'content')[0];
+		    var aBigLi = oUlBig.getElementsByTagName('li');
+		    var oDivSmall = getByClass(oDiv, 'pointer')[0]
+		    var aLiSmall = oDivSmall.getElementsByTagName('li');
+		    var now = 0;
+		    function tab() {
+		        for (var i = 0; i < aLiSmall.length; i++) {
+		            aLiSmall[i].className = '';
+		        }
+		        aLiSmall[now].className = 'thistitle'
+		        startMove(oUlBig, 'left', -(now * aBigLi[0].offsetWidth))
+    		}
+
+
+		    for (var i = 0; i < aLiSmall.length; i++) {
+		        aLiSmall[i].index = i;
+		        aLiSmall[i].onclick = function() {
+		            now = this.index;
+		            tab();
+		        }
+		    }
+
+		    oPre.onclick = function() {
+		        now--
+		        if (now == -1) {
+		            now = aBigLi.length-1;
+		        }
+		        tab();
+		    }
+		    oNext.onclick = function() {
+		        now++
+		        if (now == aBigLi.length) {
+		            now = 0;
+		        }
+		        tab();
+		    }
+		    var timer = setInterval(oNext.onclick, 3000)
+		    oDiv.onmouseover = function() {
+		        clearInterval(timer)
+		    }
+		    oDiv.onmouseout = function() {
+		        timer = setInterval(oNext.onclick, 3000)
+		    }
+		}
+		function getStyle(obj, name) {
+		    if (obj.currentStyle) {
+		        return obj.currentStyle[name]
+		    } else {
+		        return getComputedStyle(obj, false)[name]
+		    }
+		}
+
+		function getByClass(oParent, nClass) {
+		    var eLe = oParent.getElementsByTagName('*');
+		    var aRrent = [];
+		    for (var i = 0; i < eLe.length; i++) {
+		        if (eLe[i].className == nClass) {
+		            aRrent.push(eLe[i]);
+		        }
+		    }
+		    return aRrent;
+		}
+		function startMove(obj, att, add) {
+		    clearInterval(obj.timer)
+		    obj.timer = setInterval(function() {
+		        var cutt = 0;
+		        if (att == 'opacity') {
+		            cutt = Math.round(parseFloat(getStyle(obj, att)));
+		        } else {
+		            cutt = Math.round(parseInt(getStyle(obj, att)));
+		        }
+		        var speed = (add - cutt) / 8;
+		        speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+		        if (cutt == add) {
+		            clearInterval(obj.timer)
+		        } else {
+		            if (att == 'opacity') {
+		                obj.style.opacity = (cutt + speed) / 100;
+		                obj.style.filter = 'alpha(opacity:' + (cutt + speed) + ')';
+		            } else {
+		                obj.style[att] = cutt + speed + 'px';
+		            }
+		        }
+
+		    }, 30)
+		}
+	</script>
+	<div class="middle1">
+		<div class="shuju">
+		<p><span>36</span>个</p><p style="font-size:12px;">累计项目数量</p>
+		
+		</div>
+		<div class="shuju">
+		<p><span>1,043</span>万元</p><p style="font-size:12px;">累计融资额</p>
+		
+		</div>
+		<div class="shuju">
+		<p><span>11,619</span>位</p><p style="font-size:12px;">累计认证投资人</p>
+		
+		</div>
+	</div>
+	<div class="middle2">
+		<p>筹资进行中</p>
+		<div class="fenlei"><span>果蔬种植</span><span>/</span><span>新鲜果品</span><span>/</span><span>生态养殖</span><span>/有机蔬菜</span><span>/</span><span>生物科技</span><span>更多&raquo;</span></div>
+	
+	</div>
+	<div class="middle3">
+		<div class="middle3l">
+			<img src="images/s1.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+		
+		<div class="middle3l">
+			<img src="images/s2.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+		
+		<div class="middle3l">
+			<img src="images/s3.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+		
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+	</div>
+	<div class="middle3">
+		<div class="middle3l">
+			<img src="images/s1.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+		
+		<div class="middle3l">
+			<img src="images/s2.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+		
+		<div class="middle3l">
+			<img src="images/s3.jpg" alt="<p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p><p>融资目标：16.00万</p>"/>
+			<div class="wenben">
+				<p>有机蔬菜</p><p class="jieshao">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p>融资目标：1500万 &nbsp;&nbsp;剩余时间：50天</p>
+				<div class="baifenbi">110%</div>
+			</div>
+			<div class="baifentiao">
+			<span><hr style="width:80%;float:left;background:#FE797A;height:3px;"/><hr style="width:20%;float:left;background:#76CBE6;height:3px;"/></span></div>
+		
+			<div class="xinxi">
+				<div class="dizhi"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi"><img src="images/s6.jpg"/>8</div>
+			</div>
+			<div class="touzi"><p>立即投资</p></div>
+		</div>
+	</div>
+	<div class="liulan"><p>浏览更多项目</p></div>
+	<div class="yichouzi">
+			<p>已成功的筹资</p>
+			<div class="fenlei"><span>平坦土地</span><span>/</span><span>有机土地</span><span>/</span><span>池塘土地</span><span>/种菜土地</span><span>/</span><span>养殖土地</span><span>更多&raquo;</span>
+		<div class="youji">
+			<img src="images/s7.jpg"/>
+			<div class="youji1">
+				<div class="youji2">
+					<p style="font-size:20px;float:left;margin-top:5px;">有机蔬菜</p><br/>
+					<span><p class="jieshao" style="font-size:16px;float:left;margin-left:-81px;margin-top:15px;">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p style="font-size:16px; margin-left:30PX;margin-top:15px;">筹集地点：武汉&nbsp;&nbsp;天津</p>
+					</span><p style="font-size:16px;float:left;margin-top:5px;">融资金额：1500万 &nbsp;&nbsp;完成时间：60天</p>
+				</div>
+				<div class="xinxi1" >
+				<div class="dizhi1"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi1"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi1"><img src="images/s6.jpg"/>8</div>
+				<div class="dizhi1" style="float:right;color:#D1EEFE">100%</div>
+				</div>
+				<hr style="height:4px;background:#FE797A;width:80%;text-align:center;margin-left:20px;;">
+			
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+			<div class="youji">
+			<img src="images/s8.jpg"/>
+			<div class="youji1">
+				<div class="youji2">
+					<p style="font-size:20px;float:left;margin-top:5px;">有机蔬菜</p><br/>
+					<span><p class="jieshao" style="font-size:16px;float:left;margin-left:-81px;margin-top:15px;">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p style="font-size:16px; margin-left:30PX;margin-top:15px;">筹集地点：武汉&nbsp;&nbsp;天津</p>
+					</span><p style="font-size:16px;float:left;margin-top:5px;">融资金额：1500万 &nbsp;&nbsp;完成时间：60天</p>
+				</div>
+				<div class="xinxi1" >
+				<div class="dizhi1"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi1"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi1"><img src="images/s6.jpg"/>8</div>
+				<div class="dizhi1" style="float:right;color:#D1EEFE">100%</div>
+				</div>
+				<hr style="height:4px;background:#FE797A;width:80%;text-align:center;margin-left:20px;;">
+			
+			</div>
+			
+		</div>
+			<div class="clear"></div>
+			<div class="youji">
+			<img src="images/s9.jpg"/>
+			<div class="youji1">
+				<div class="youji2">
+					<p style="font-size:20px;float:left;margin-top:5px;">有机蔬菜</p><br/>
+					<span><p class="jieshao" style="font-size:16px;float:left;margin-left:-81px;margin-top:15px;">纯天然，纯绿色，激发人体所需要更多的营养物质吸收。</p><p style="font-size:16px; margin-left:30PX;margin-top:15px;">筹集地点：武汉&nbsp;&nbsp;天津</p>
+					</span><p style="font-size:16px;float:left;margin-top:5px;">融资金额：1500万 &nbsp;&nbsp;完成时间：60天</p>
+				</div>
+				<div class="xinxi1" >
+				<div class="dizhi1"><img src="images/s4.jpg"/>浙江</div>
+				<div class="dizhi1"><img src="images/s5.jpg"/>1600</div>
+				<div class="dizhi1"><img src="images/s6.jpg"/>8</div>
+				<div class="dizhi1" style="float:right;color:#D1EEFE">100%</div>
+				</div>
+				<hr style="height:4px;background:#FE797A;width:80%;text-align:center;margin-left:20px;;">
+			
+			</div>
+			<div class="clear"></div>
+			<div class="liulan" style="margin-top:10px;"><p style="font-size:16px;">浏览更多项目</p></div>
+		</div>
+			
+			
+	</div>
+	
+	
+	
+	
+	
+	
+	</div>
+	
+		<iframe src="gerenfooter.html" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;padding:0px;
+}
+body{
+	font-size:14px;font-family:microsoft yahei;}
+	ul,li{list-style:none;}
+	img{border:none;}
+	.clear{clear:both;}
+	.floatl{float:left;}
+	.float{float:right;}
+	.block{display:block;}
+	.font12{font-size:12px;}
+	a{color:#000;text-decoration:none;}
+	
+	a:hover{text-decoration:underline;color:white;}
+	header{width:100%; padding:5px; margin-bottom:5px;}
+	.logo{background:url(../images/logo.png) no-repeat;width:237px;height:86px; float:left; margin-left:50px;}
+	
+	nav { float:left; line-height:86px;}
+	.box{width:300px; height:40px; border:#ccc solid 2px; margin-top:30px; margin-left:300px;}
+	dl dt { float:left;}
+	dl dt select{ float:left; height:40px; border:#fff solid 0px;}
+	dl dd{ width:70px; height:46px;float:right; margin-top:28px;}
+	.tp ul{border-bottom:#ccc solid 3px; width:100%;float:left;}
+	.tp ul li{ float:left; margin:10px 25px auto; font-size:24px; }
+	span{ float:right; margin-left:150px;}
+	span li{margin-left:15px;}
+	
+	.r1{width:80%;height:100px;border:1px #eee solid;float:left;margin:20px 130px auto;}
+	.shaixuan1{margin-top:20px;}
+	.shaixuan1 span{margin-left:50px; float:left;}
+	.s11 span{margin-left:120px;}
+	.shaixuan2 span{margin-left:50px; float:left;}
+	.all{background:#C4F866; color:#fff;}
+	
+	.main{width:80%;float:left;margin:20px 130px auto;background:#D1EEFE; }
+	.r2{}
+	.r22{width:30%; margin-left:20px; float:left; margin-bottom:20px;}
+	.p2{width:95%;float:left;padding:0px;float:left;}
+	.p2 p{margin-top:10px; line-height:50px;margin-bottom:-42px;font-size:14px;}
+	.p1 img{width:300px; height:300px;float:left;margin-top:20px;margin-left:18px;}
+	.right4{width:90%;height:40px;background:#fff;margin:30px 50px 30px;}
+	.right4 p{margin:12 auto;text-align:center;padding-top:10px;}

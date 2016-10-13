@@ -1,0 +1,189 @@
+<html>
+	<head>
+		<title>登录界面</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style>
+		.header{width:100%;height:100px;}
+		.q{width:20%;heigt:100px;float:left;margin-left:10%}
+		.w{width:70%;heigt:100px;float:right;}	
+		ul li{list-style:none;float:left;}
+		.w ul li{margin-left:20px;height:60px;line-height:60px;font-size:24px;font-weight:bold;}
+		.content{width:80%;height:780px;background-color:#F7F7F7;margin:0 auto;border:1px #CCC solid; }
+		.clear{clear:both;}
+		.f{width:100%;height:100%;}
+		.g{width:60%;height:90%;float:left;}
+		.g dl{height:10px;margin-top:40px;margin-left:0px;}
+		.g dl dt{width:30%;float:left;text-align:right;}
+		.g dl dt dd{width:70%;float:left;}
+		.g dl input{width:250px;}
+		.biaoqian{background:#eee;color:#000;}
+		.biaoqian:hover{background:green;color:white;}
+		
+		.form{width:100%;height:60px;margin-left:10%;}
+		.num{font-size:24px;color:white;}
+		.step1,.step2,.step3,.step4{  width:266px;height:60px;text-align:center;line-height:60px; }
+		.step1{background:url(images/green.png) no-repeat;color:white;margin-left:-50px;position:relative; z-index:10000;}
+		.step2{background:url(images/gray.png) no-repeat;margin-left:-50px;position:relative; z-index:9999;}
+		.step3{background:url(images/gray.png) no-repeat;margin-left:-50px;position:relative; z-index:1000;}
+		.step4{background:url(images/gray.png) no-repeat;margin-left:-50px;}
+		.h{width:40%;height:40%;float:left;}	
+		.h img{width:265px;height:280px;margin-top:80px;margin-right:20px;float:right;text-align:center;}
+		.tongyi{width:32%;float:left;height:3%;text-align:center;margin-left:300px;margin-top:-15px;}
+		.tongyi input{float:left;text-align:right;}
+		.tongyi h5{width:40%;float:left;}
+		.butt{width:100%;height:9%;text-align:center;margin-left:250px;}
+		.butt ul li{margin-left:50px;}
+		.footer{width:100%;height:200px;margin-top:0px;}
+		.r{margin:0 auto;width:100%;height:80px;text-align:center;padding:5px;}
+		.a{text-align:center;width:100%;height:20px;margin-top:8px;}
+		.t{background-color:#000000;border:1px #000 solid;width:100%;height:100px;}
+		.s{color:white;text-align:center;padding-top:30px;}
+		</style>
+			
+	<body>
+	<div  class="header">
+		<div class="q">	
+			<img src="images/logo.png">	
+		</div>
+		<div class="w">
+			<ul>
+				<li>首页</li>
+				<li>我要贷款</li>
+				<li>我要借款</li>
+				<li>安全保障</li>
+				<li>新手指引</li>
+				<li>关于我们</li>
+			
+			</ul>
+		</div>
+		
+	</div>	
+	<div class="clear"></div>
+	<div class="form">
+			<ul>
+				<li class="step1"><span class="num">1.</span> 填写项目信息 </li>
+				<li class="step2"><span class="num">2.</span> 填写发起人信息</li>
+				<li class="step3"><span class="num">3.</span> 设置回报</li>
+				<li class="step4"><span class="num">4.</span> 等待审核</li>
+			
+			
+			</ul>
+	</div>
+	
+	
+	<div class="clear"></div>
+	<div  class="content">
+		
+		<div class="f">
+			<div class="g">
+			<dl>
+				<dt>产品名称：</dt>
+				<dd><input type="text"/></dd>
+			</dl>
+			<dl>
+				<dt>众筹金额：</dt>
+				<dd><input type="text"/>元</dd>
+			</dl>
+			<dl>
+				<dt>资金用途：</dt>
+				<dd><input type="text"/></dd>
+			</dl>
+			<dl>	
+				<dt>截止日期：</dt>
+					<dd><select placeholder="请选择年">
+						<option value="请选择年">请选择年</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						<option value="2014">2014</option>
+						</select>
+						<select placeholder="请选择月">
+						<option value="请选择月">请选择月</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="4">4</option>
+						</select>
+						<select placeholder="请选择日">
+						<option value="请选择日">请选择日</option>
+						<option value="26">26</option>
+						<option value="25">25</option>
+						<option value="24">24</option>
+						</select>
+				</dd>
+			</dl>
+			<dl>	
+				<dt>产品地点：</dt>
+					<dd><select placeholder="山东省">
+						<option value="山东省">山东省</option>
+						<option value="山西">山西</option>
+						<option value="四川">四川</option>
+						<option value="广西">广西</option>
+						</select>
+						<select placeholder="请选择">
+						<option value="请选择">请选择</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="4">4</option>
+						</select>
+						<select placeholder="请选择">
+						<option value="请选择">请选择</option>
+						<option value="26">26</option>
+						<option value="25">25</option>
+						<option value="24">24</option>
+						</select>
+				</dd>
+			</dl>
+			<dl >
+				<dt>添加标签：</dt>
+				<dd ><input class="biaoqian"style="width:40px;float:left;margin-right:10px;"type="text" placeholder="土地"/></dd>
+				<dd ><input class="biaoqian"style="width:40px;float:left;margin-right:10px;" type="text" placeholder="家禽"/></dd>
+				<dd > <input class="biaoqian"style="width:40px;float:left;margin-right:10px;" type="text" placeholder="蔬菜"/></dd>
+				<dd ><input class="biaoqian"style="width:40px;float:left;margin-right:10px;" type="text" placeholder="水果"/></dd>
+				<dd ><input class="biaoqian"style="width:40px;float:left;margin-right:10px;" type="text" placeholder="其他"/></dd>
+			</dl>
+			<dl>
+				<dt>收货地址：</dt>
+				<dd><input type="text"/></dd>
+			</dl>
+			<dl>
+				<dt>运费：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt>
+				<dd><input type="text"/>元</dd>
+			</dl>
+			<dl >
+				<dt >回报内容：</dt>
+				<textarea style="float:left;text-align:right;margin-left:180px;margin-top:-20px;" cols="80"rows="10"></textarea>
+			</dl>
+				
+			
+			</div>
+				
+			<div class="h"><img src="images/ad.jpg"/></div>
+			<div class="clear"></div>
+			<div class="tongyi"><span><input type="checkbox"/>已阅读并同意</span><span style="color:green;">《万分田众筹发布条款》</span>
+						
+			</div>
+			<div class="butt">
+						<ul>
+							<li style="background-color:#eee;border-radius:10px;width:80px;height:50px;color:white;font-size:24px;font-weight:bold;text-align:center;">取消</li>
+							<li style="background-color:green;border-radius:10px;width:80px;height:50px;color:white;font-size:24px;font-weight:bold;text-align:center;">发布</li>
+						</ul>
+			</div>	
+		</div>
+	</div>
+		<div class="clear"></div>
+	<div  class="footer">
+		<div class="a">合作伙伴</div>
+		<div class="r">	
+			<img src="images/link1.jpg">	
+			<img src="images/link2.jpg">
+			<img src="images/link3.jpg">
+			<img src="images/link4.jpg">
+			<img src="images/link5.jpg">
+		</div>
+		<div class="t"><div class="s"> 安全承诺 | 新手指引 |  品牌介绍 | 联系我们 | 版权声明<Br/> Copyright 2016 合伙投 All rights reserved
+</div></div>
+	</div>
+	
+		
+		
+	</body>
+</html>
