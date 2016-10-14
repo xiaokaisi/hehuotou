@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft yahei", Arial;
+   
+}
+.box{
+    width:1000px;height:420px;margin:0 auto;border:2px #eee solid;
+}
+
+.box ul li{
+    float: left;
+    width: 300px;
+    height: 400px;
+    
+    border: solid 1px #979797;
+    margin: 0 20px 20px 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+.box ul li .cover a{
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 30px auto;
+
+}
+.box ul li .cover a i{
+    color: red;
+}
+/* узуж╡Ц */
+.box ul li .cover{
+    width: 300px;
+    height: 400px;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: #ffffff;
+    transform-origin: right bottom;      
+    transform: rotate(90deg);
+    transition: all 0.35s;
+}
+.box ul li .cover p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.box ul li:hover .cover{
+    transform: rotate(0deg);
+}
+.wenben{width:300px;height:80px;}
+.baifentiao{width:300px;height:5px;margin-top: 25px;}
+.xinxi{width:300px;height:30px;}
+.dizhi{width:30%;height:10px;float:left;text-align:center;margin-top: 10px;}
+.dizhi img{width:20px;height:20px;}
+.touzi{border-radius:10px;background:#FF7A7B;width:100px;height:40px;margin-left:100px;margin-top: 10px;}
+.touzi p{color:white;margin:0 auto;text-align:center;padding-top:10px;}
